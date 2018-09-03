@@ -21,6 +21,6 @@ while True:
 
 totalPrice = sum(total)
 
-print(totalPrice)
+print("The total price of your order is £" + totalPrice)
 
 type(order)
