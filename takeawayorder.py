@@ -1,8 +1,10 @@
 
+from menuitem import MenuItem
+
 print('Welcome to Eastern Express, please enter the number of the item you wish to order.\nOnce finished please type Finished to place the '
       'order. May I take your order?')
-menu = {'1': 'Chicken Rice', '3': 'Chicken Balls'}
-price = {'Chicken Rice': 3.51, 'Chicken Balls': 2.60}
+menu = {'1': 'House Special Soup', '2': "Hot & Sour Soup", '3': 'Crab Meat & Sweetcorn Soup', '4': 'Chicken & Sweetcorn Soup', '5': 'Chicken & Mushroom Soup', '6':'Chicken & Noodle Soup'}
+price = {'House Special Soup': 2.80, 'Hot & Sour Soup':2.60, 'Crab Meat & Sweetcorn Soup': 2.80, 'Chicken * Sweetcorn Soup': 2.60, 'Chicken & Mushroom Soup': 2.30, 'Chicken & Noodle Soup':2.30}
 total =[]
 orderedFood = []
 while True:
